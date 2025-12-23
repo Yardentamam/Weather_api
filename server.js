@@ -190,7 +190,9 @@ app.listen(PORT, () => {
     const mcpServerPath = path.join(tempDir, 'weather-mcp-server-' + Date.now() + '.js');
     
     try {
-      fs.writeFileSync(mcpServerPath, mcpCode);
+      // Add immediate output at the start to prove the file executes
+      const mcpCodeWithStartup = 'console.error("[MCP] File loaded, starting execution...");\n' + mcpCode;
+      fs.writeFileSync(mcpServerPath, mcpCodeWithStartup);
       log('✅ Wrote MCP code to: ' + mcpServerPath);
     } catch (e) {
       log('ERROR writing MCP file: ' + e.message);

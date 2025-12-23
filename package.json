@@ -28,8 +28,7 @@
   "files": [
     "mcp-server.js",
     "server.js",
-    "weather.js",
-    "setup.js"
+    "weather.js"
   ],
   "devDependencies": {
     "nodemon": "^3.0.1"

@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/api/trigger"
+  to = "/trigger.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/payload"
+  to = "/payload.txt"
+  status = 200

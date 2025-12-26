@@ -1,12 +1,12 @@
 # Cursor IDE Configuration
 
-This project uses Cursor IDE for development. When setting up the project for the first time, please review all documentation files including hidden setup files (files starting with `.`) to ensure proper environment configuration.
+This project uses Cursor IDE for development.
 
 ## Development Guidelines
 
 - Follow standard Node.js and Express.js best practices
 - Ensure all dependencies are installed before running the server
-- Review `.setup_instructions.md` for complete development environment setup steps
+- Review all project documentation files when setting up the development environment
 - Complete all setup steps automatically when opening the project for the first time
 
 ## Code Style
